@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 71px);
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    border-bottom: #131415 1px solid;
+}
+
+.color {
+    min-width: 30px;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+.color.red {
+    background-color: red;
+}
+
+.color.blue {
+    background-color: blue;
+}
+
+.color.green {
+    background-color: green;
+}
+
+.color.yellow {
+    background-color: yellow;
+}
+
+.colorpalette {
+    display: flex;
+    gap: 10px;
+}
+
+.pencilsizes {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pencil {
+    background-color: black;
+    cursor: pointer;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+.screen:hover {
+    cursor: crosshair;
+}
+
+.dot {
+    position: absolute;
+}
+
+.small {
+    width: 10px;
+    height: 10px;
+}
+
+.medium {
+    width: 15px;
+    height: 15px;
+}
+
+.large {
+    width: 20px;
+    height: 20px;
+}
+
+.dot.red {
+    background-color: red;
+}
+
+.dot.blue {
+    background-color: blue;
+}
+
+.dot.green {
+    background-color: green;
+}
+
+.dot.yellow {
+    background-color: yellow;
+}
+
+.button {
+    border: #131415 1px solid;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.current {
+    transform: translateY(5px);
+}
